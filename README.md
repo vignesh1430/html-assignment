@@ -11,10 +11,8 @@
             Why do you want to learn HTML CSS: ZERO TO HERO?
         </h1>
         <H1>
-            To increase my knowledge as well as to increase my career prosprity
-            .I'm interested in creating webpages.
-        </H1>
+            To increase my knowledge and to create web pages
     </body>
 </html>
-© 2022 GitHub, Inc.
+
  
