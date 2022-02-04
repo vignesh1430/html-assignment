@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Complex Table</title>
+        <h1>Complex Table</h1>
+    </head>
+    <body>
+    <table border="2">
+        <caption style="color: green; font-weight: bold;">SK Restro Menu</caption>
+        <!__row1__>
+        <tr>
+        <th rowspan="2">Type</th>
+        <th rowspan="2">Dish Name</th>
+        <th colspan="2">Option</th>
+        </tr>
+        <!__row2__>
+        <tr>
+            <th>Half</th>
+            <th>Full</th>
+        </tr>
+        <!__row3__>
+        <tr>
+            <th rowspan="7">Veg Dish</th>
+            <td style="color: brown">Veg Paneer</td>
+            <td style="color: brown">80.00</td>
+            <td style="color: brown">120.00</td>
+        </tr>
+        <!__row4__>
+    <tr>
+        <td style="color: brown">Bean salad</td>
+        <td style="color: brown">90.00</td>
+        <td style="color: brown">140.00</td>
+    </tr>
+    <!__row5__>
+    <tr>
+        <td style="color: brown">falafel</td>
+        <td style="color: brown">80.00</td>
+        <td style="color: brown">140.00</td>
+    </tr>
+    <!__row6__>
+    <tr>
+        <td style="color: brown">Hummus</td>
+        <td style="color: brown">90.00</td>
+        <td style="color: brown">150.00</td>
+    </tr>
+    <!__row7__>
+    <tr>
+        <td style="color: brown"> Green bean casserole</td>
+        <td style="color: brown">90.00</td>
+        <td style="color: brown">140.00</td>
+    </tr>
+    <!__row8__>
+    <tr>
+        <td style="color: brown">Dal fry</td>
+        <td style="color: brown">70.00</td>
+        <td style="color: brown">110.00</td>
+    </tr>
+    <!__row9__>
+    <tr>
+        <td style="color: brown">Pea soup</td>
+        <td style="color: brown">90.00</td>
+        <td style="color: brown">140.00</td>
+        
+        </tr>
+        <!__row10__>
+        <tr>
+        <th rowspan="7">Non Veg Dish</th>
+        <td>Chiken Kadhi</td>
+        <td>140.00</td>
+        <td>220.00</td>
+        </tr>
+        <!__row11__>
+        <tr>
+            <td>Butter Chicken</td>
+            <td>90.00</td>
+            <td>150.00</td>
+        </tr>
+        <!__row12__>
+        <tr>
+            <td>Murg Massallam</td>
+            <td>380.00</td>
+            <td>600.00</td>
+        </tr>
+        <!__row13__>
+        <tr>
+            <td>mutton Fry</td>
+            <td>170.00</td>
+            <td>260.00</td>
+        </tr>
+        <!__row14__>
+        <tr>
+            <td>Mutton Masala</td>
+            <td>170.00</td>
+            <td>260.00</td>
+        </tr>
+        <!__row15__>
+        <tr>
+        <td>Mutton Kheema Fry</td>
+        <td>170.00</td>
+        <td>250.00</td>
+        </tr>
+        <!__row16__>
+        <tr>
+        <td>Egg Curry</td>
+        <td>70.00</td>
+        <td>110.00</td>
+        </tr>
+    </table>
+        
+    </body>
+</html>
