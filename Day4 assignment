@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toddle Form - Ciska Event Planer</title>
+    <style>
+        body {
+            background-color: rgb(245, 213, 210);
+        }
+
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 1%;
+            width: 70%;
+            margin-left: 2%;
+        }
+       
+        header {
+            border: 1px solid black;
+            border-top: 5px solid rgb(82, 30, 5);
+            border-left: 5px solid blueviolet;
+            padding: 10px;
+            margin-top: 1%;
+            width: 70%;
+            margin-left: 2%;
+        }
+        .submit,.reset
+        {
+            margin-left:18%;
+            width:15%;
+            border-radius: 10px;
+        }
+      .submit:hover,.reset:hover
+      {
+          background-color: black;
+          color:white;
+      }
+
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Event Registration and Planer</h1>
+        <p>Cika Event Planer</p>
+        <P>Address : Near Celebration Mall , Sukhadia Cricle, Udaipur </P>
+    </header>
+    <form action="">
+        <div class="box">
+            <p>Name:</p>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name">
+        </div>
+        <div class="box">
+            <p>Email Id:</p>
+            <input type="email" name="email" id="email" placeholder="Enter Email-id">
+        </div>
+        <div class="box">
+            <p>Organisation:<sup>*</sup></p>
+            <input type="text" name="org" id="org" placeholder="Enter Organisation Name">
+        </div>
+        <div class="box">
+            <p>Date of Event</p>
+            <input type="date" name="date" id="date">
+            
+        </div>
+
+        <div class="box">
+            <p>Start Timing</p>
+            <input type="time" name="stime" id="stime">
+            <p>End Timing</p>
+            <input type="time" name="etime" id="etime">
+        </div>
+        
+        <div class="box">
+            <p>Type of Event to be Organised:</p>
+         <select name="type" id="type">
+            <option value="">---Choose Type of Event---</option>
+             <option value="sa">Social Activity</option>
+             <option value="festival">Festival</option>
+             <option value="Club">Club Activity</option>
+             <option value="Film">Film Screening</option>
+         </select>
+        </div>
+
+       <br>
+       <div class="lastbutt">
+        <input type="submit" value="Click to submit" class="submit">
+        <input type="reset" value="Click to reset" class="reset">
+       </div>
+
+        
+        
+        
+
+
+
+
+    </form>
+
+</body>
+
+</html>
+© 2022 GitHub, Inc.
+Terms
